@@ -1,14 +1,12 @@
-import React from 'react';
-import { Segment } from 'semantic-ui-react';
-
+import React from "react";
+import { Segment } from "semantic-ui-react";
 
 const WestworldMap = () => {
-
   return (
-    <Segment id="map" >
-      {/* What should we render on the map? */}
+    <Segment id="map">
+      <Area />
     </Segment>
-  )
-}
+  );
+};
 
-export default WestworldMap
+export default WestworldMap;
